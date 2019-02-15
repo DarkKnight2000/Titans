@@ -23,3 +23,16 @@
 #define DINO_WALK_FRAME_10_FILEPATH "Resources/res/Dinosaur/Walk (10).png"
 #define DINO_WALK_ANIMATION_DURATION 1.6f
 #define DINO_WALK_SPEED 100.0f
+
+#define KNIGHT_WALK_FRAME_1_FILEPATH "Resources/res/Knight/Walk (1).png"
+#define KNIGHT_WALK_FRAME_2_FILEPATH "Resources/res/Knight/Walk (2).png"
+#define KNIGHT_WALK_FRAME_3_FILEPATH "Resources/res/Knight/Walk (3).png"
+#define KNIGHT_WALK_FRAME_4_FILEPATH "Resources/res/Knight/Walk (4).png"
+#define KNIGHT_WALK_FRAME_5_FILEPATH "Resources/res/Knight/Walk (5).png"
+#define KNIGHT_WALK_FRAME_6_FILEPATH "Resources/res/Knight/Walk (6).png"
+#define KNIGHT_WALK_FRAME_7_FILEPATH "Resources/res/Knight/Walk (7).png"
+#define KNIGHT_WALK_FRAME_8_FILEPATH "Resources/res/Knight/Walk (8).png"
+#define KNIGHT_WALK_FRAME_9_FILEPATH "Resources/res/Knight/Walk (9).png"
+#define KNIGHT_WALK_FRAME_10_FILEPATH "Resources/res/Knight/Walk (10).png"
+#define KNIGHT_WALK_ANIMATION_DURATION 1.6f
+#define KNIGHT_WALK_SPEED 100.0f
