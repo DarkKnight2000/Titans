@@ -21,11 +21,20 @@ namespace Titans {
 		_data->assets.LoadTexture("Dino Walk Frame 8", DINO_WALK_FRAME_8_FILEPATH);
 		_data->assets.LoadTexture("Dino Walk Frame 9", DINO_WALK_FRAME_9_FILEPATH);
 		_data->assets.LoadTexture("Dino Walk Frame 10", DINO_WALK_FRAME_10_FILEPATH);
-
+		_data->assets.LoadTexture("Knight Walk Frame 1", KNIGHT_WALK_FRAME_1_FILEPATH);
+		_data->assets.LoadTexture("Knight Walk Frame 2", KNIGHT_WALK_FRAME_2_FILEPATH);
+		_data->assets.LoadTexture("Knight Walk Frame 3", KNIGHT_WALK_FRAME_3_FILEPATH);
+		_data->assets.LoadTexture("Knight Walk Frame 4", KNIGHT_WALK_FRAME_4_FILEPATH);
+		_data->assets.LoadTexture("Knight Walk Frame 5", KNIGHT_WALK_FRAME_5_FILEPATH);
+		_data->assets.LoadTexture("Knight Walk Frame 6", KNIGHT_WALK_FRAME_6_FILEPATH);
+		_data->assets.LoadTexture("Knight Walk Frame 7", KNIGHT_WALK_FRAME_7_FILEPATH);
+		_data->assets.LoadTexture("Knight Walk Frame 8", KNIGHT_WALK_FRAME_8_FILEPATH);
+		_data->assets.LoadTexture("Knight Walk Frame 9", KNIGHT_WALK_FRAME_9_FILEPATH);
+		_data->assets.LoadTexture("Knight Walk Frame 10", KNIGHT_WALK_FRAME_10_FILEPATH);
 		_background.setTexture(this->_data->assets.GetTexture("Game Background"), true);
 
 		dino = new Dino(_data);
-
+		knight = new Knight(_data);
 	}
 
 	void GameState::HandleInput() {
@@ -39,12 +48,14 @@ namespace Titans {
 
 	void GameState::Update(float dt) {
 		dino->Animate(dt);
+		knight->Animate(dt);
 	}
 
 	void GameState::Draw(float dt) {
 		_data->window.clear();
 		_data->window.draw(_background);
 		dino->Draw();
+		knight->Draw();
 		_data->window.display();
 	}
 }
