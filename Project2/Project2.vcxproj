@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="AssetManager.cpp" />
     <ClCompile Include="Dino.cpp" />
+    <ClCompile Include="Knight.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameOverState.cpp" />
     <ClCompile Include="GameState.cpp" />
@@ -130,6 +131,7 @@
     <ClInclude Include="AssetManager.hpp" />
     <ClInclude Include="DEFINITIONS.hpp" />
     <ClInclude Include="Dino.hpp" />
+    <ClInclude Include="Knight.hpp" />
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="GameOverState.hpp" />
     <ClInclude Include="GameState.hpp" />
