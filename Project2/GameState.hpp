@@ -4,7 +4,7 @@
 #include "State.hpp"
 #include "Game.hpp"
 #include "Dino.hpp"
-
+#include "Knight.hpp"
 namespace Titans {
 	class GameState : public State
 	{
@@ -19,7 +19,7 @@ namespace Titans {
 	private:
 		GameDataRef _data;
 		sf::Sprite _background;
-
+		Knight *knight;
 		Dino *dino;
 	};
 
