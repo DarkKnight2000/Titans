@@ -45,6 +45,9 @@
     <ClCompile Include="Dino.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="State.hpp">
@@ -78,6 +81,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Dino.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
