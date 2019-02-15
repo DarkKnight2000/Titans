@@ -36,3 +36,15 @@
 #define KNIGHT_WALK_FRAME_10_FILEPATH "Resources/res/Knight/Walk (10).png"
 #define KNIGHT_WALK_ANIMATION_DURATION 1.6f
 #define KNIGHT_WALK_SPEED 100.0f
+#define KNIGHT_JUMP_FRAME_1_FILEPATH "Resources/res/Knight/Jump (1).png"
+#define KNIGHT_JUMP_FRAME_2_FILEPATH "Resources/res/Knight/Jump (2).png"
+#define KNIGHT_JUMP_FRAME_3_FILEPATH "Resources/res/Knight/Jump (3).png"
+#define KNIGHT_JUMP_FRAME_4_FILEPATH "Resources/res/Knight/Jump (4).png"
+#define KNIGHT_JUMP_FRAME_5_FILEPATH "Resources/res/Knight/Jump (5).png"
+#define KNIGHT_JUMP_FRAME_6_FILEPATH "Resources/res/Knight/Jump (6).png"
+#define KNIGHT_JUMP_FRAME_7_FILEPATH "Resources/res/Knight/Jump (7).png"
+#define KNIGHT_JUMP_FRAME_8_FILEPATH "Resources/res/Knight/Jump (8).png"
+#define KNIGHT_JUMP_FRAME_9_FILEPATH "Resources/res/Knight/Jump (9).png"
+#define KNIGHT_JUMP_FRAME_10_FILEPATH "Resources/res/Knight/Jump (10).png"
+#define KNIGHT_JUMP_ANIMATION_DURATION 1.6f
+#define KNIGHT_JUMP_SPEED 100.0f
