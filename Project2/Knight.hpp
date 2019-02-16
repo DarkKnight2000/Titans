@@ -11,7 +11,9 @@ namespace Titans {
 		Knight(GameDataRef data);
 		
 		void Draw();
-		void walkAnimate(float dt);
+		void runAnimate(float dt);
+		void attackAnimate(float dt);
+		void deadAnimate(float dt);
 	private:
 		GameDataRef _data;
 		sf::Sprite _knightSprite;
