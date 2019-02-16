@@ -57,7 +57,7 @@ namespace Titans {
 			_knightSprite.setTexture(_animationFrames.at(_animationIterator));
 			_clock.restart();
 		}
-		_knightSprite.move(KNIGHT_WALK_SPEED * dt, 0);
+		_knightSprite.move(KNIGHT_ATTACK_SPEED * dt, 0);
 	}
 	void Knight::deadAnimate(float dt) {
 		if (_clock.getElapsedTime().asSeconds() > KNIGHT_DEAD_ANIMATION_DURATION/ _animationFrames.size()) {
@@ -65,6 +65,6 @@ namespace Titans {
 			_knightSprite.setTexture(_animationFrames.at(_animationIterator));
 			_clock.restart();
 		}
-		_knightSprite.move(KNIGHT_WALK_SPEED * dt, 0);
+		_knightSprite.move(KNIGHT_DEAD_SPEED * dt, 0);
 	}
 }
